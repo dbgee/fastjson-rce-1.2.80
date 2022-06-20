@@ -25,4 +25,4 @@ Fastjson rce poc for 1.2.80
 3. 开启safemode
    1. 开启方法如下  
 
-   ![](images/safemode.png)
+![](images/safemode.png)
