@@ -14,10 +14,9 @@ Fastjson rce poc for 1.2.80
 ```
 
 ### 利用方式
-1. 编译、运行本程序
-   1. `mvn clean package`
-   2. `java -jar .\target\fastjson-rce-1.0.0.jar`
-2. 发送payload 
+1. 编译 `mvn clean package` ，或直接下载 [fastjson-rce-1.0.0.jar](https://github.com/dbgee/fastjson-rce-1.2.80/releases/download/v1.0.0/fastjson-rce-1.0.0.jar)
+2. 运行 `java -jar .\target\fastjson-rce-1.0.0.jar`
+3. 发送payload 
 ![](images/exp.png)
 
 ### 修复方式
